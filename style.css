@@ -167,11 +167,8 @@
     .responsive{
         display: block;
     }
-    .responsive .search-container{
-        width: 100%;
-        display: flex;
-    }
     .responsive .search-container input[type=text] {
+        width: 100%;
         padding: 4px;
         margin-top: 8px;
         font-size: 17px;
@@ -187,7 +184,7 @@
         color: #000;
     }
     .responsive .search-container button {
-        float: right;
+        width: 100%;
         padding: 4px;
         margin-top: 8px;
         background: #ddd;
